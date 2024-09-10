@@ -103,4 +103,6 @@ python src/deposits_tracking/track_deposits.py
 ## Logging
 Logs are stored in the logs directory. The logging configuration is set to create a new log file every hour based on the timestamp. Both file and console logging are enabled.
 
+## WhatApp Alert Message
+![WhatsApp Alert](https://drive.google.com/uc?export=view&id=1cy2Xxb9E0NCYEpd4xJF8kvF1-AQSweF9)
 
