@@ -8,7 +8,7 @@ load_dotenv()
 
 # Retrieve Telegram bot token and chat ID from environment variables
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 def send_telegram_message(message):
     """
@@ -42,3 +42,5 @@ def send_telegram_message(message):
         logger.error(f"Request error while sending message: {e}")
     except Exception as e:
         logger.error(f"Unexpected error while sending message: {e}")
+
+send_telegram_message("Hi")

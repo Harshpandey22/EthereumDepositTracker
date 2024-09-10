@@ -1,0 +1,4 @@
+2024-09-10 23:42:25,620 - INFO - Successfully connected to Ethereum network.
+2024-09-10 23:42:26,472 - INFO - Message sent successfully
+2024-09-10 23:42:27,703 - INFO - Connected to WebSocket, subscribing to mined transactions...
+2024-09-10 23:42:27,924 - INFO - Subscribed successfully: {"id":1,"result":"0xb0c060c88a2cc939b0a45b2f35b51ab9","jsonrpc":"2.0"}

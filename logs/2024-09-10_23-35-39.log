@@ -1,0 +1,6 @@
+2024-09-10 23:35:39,389 - INFO - Successfully connected to Ethereum network.
+2024-09-10 23:35:40,206 - INFO - Message sent successfully
+2024-09-10 23:35:41,319 - INFO - Connected to WebSocket, subscribing to mined transactions...
+2024-09-10 23:35:41,536 - INFO - Subscribed successfully: {"id":1,"result":"0x54478a16bb3ad4a639b1b9d9a1116071","jsonrpc":"2.0"}
+2024-09-10 23:41:54,836 - ERROR - Connection closed: no close frame received or sent
+2024-09-10 23:41:54,837 - INFO - Started Tracking

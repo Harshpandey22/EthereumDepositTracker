@@ -1,0 +1,32 @@
+2024-09-10 22:46:48,925 - INFO - Successfully connected to Ethereum network.
+2024-09-10 22:46:49,768 - INFO - Connected to WebSocket, subscribing to mined transactions...
+2024-09-10 22:46:49,983 - INFO - Subscribed successfully: {"id":1,"result":"0xe59bc2bebd2f1f1b510897d15f8cfe22","jsonrpc":"2.0"}
+2024-09-10 23:22:37,289 - INFO - Received event: {"jsonrpc":"2.0","method":"eth_subscription","params":{"result":{"removed":false,"transaction":{"hash":"0xbb395ffbdad4ff7b2f501e78965f619d81935130b054fd5b6bb4a5946957f430"}},"subscription":"0xe59bc2bebd2f1f1b510897d15f8cfe22"}}
+2024-09-10 23:22:37,289 - INFO - Deposit detected in transaction 0xbb395ffbdad4ff7b2f501e78965f619d81935130b054fd5b6bb4a5946957f430
+2024-09-10 23:22:38,147 - INFO - Block 20721821 retrieved successfully.
+2024-09-10 23:22:38,149 - INFO - Saving deposit info: {'blockNumber': 20721821, 'blockTimestamp': 1725990755, 'fee': Decimal('0.000210719060872125'), 'hash': 'bb395ffbdad4ff7b2f501e78965f619d81935130b054fd5b6bb4a5946957f430', 'pubkey': '0x936842bb7c37f47BD1477529f932305462B80139'}
+2024-09-10 23:23:08,490 - ERROR - Error while inserting deposit: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66e07f019960a61082d71900, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-09-10 23:23:08,968 - ERROR - Request error while sending message: 400 Client Error: Bad Request for url: https://api.telegram.org/bot7342594730:AAF0rDudkj7yuAPff2pvhNOxU1zQETsEdHo/sendMessage
+2024-09-10 23:23:09,083 - INFO - -- BEGIN Twilio API Request --
+2024-09-10 23:23:09,083 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACe871b658320ce8505b44b630511f377f/Messages.json
+2024-09-10 23:23:09,083 - INFO - Headers:
+2024-09-10 23:23:09,083 - INFO - Content-Type : application/x-www-form-urlencoded
+2024-09-10 23:23:09,083 - INFO - User-Agent : twilio-python/9.3.0 (Windows AMD64) Python/3.11.4
+2024-09-10 23:23:09,083 - INFO - X-Twilio-Client : python-9.3.0
+2024-09-10 23:23:09,083 - INFO - Accept-Charset : utf-8
+2024-09-10 23:23:09,083 - INFO - Accept : application/json
+2024-09-10 23:23:09,083 - INFO - -- END Twilio API Request --
+2024-09-10 23:23:10,159 - INFO - Response Status Code: 201
+2024-09-10 23:23:10,159 - INFO - Response Headers: {'Date': 'Tue, 10 Sep 2024 17:53:10 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1024', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfaec293019eb69a83e70ca81aea21d72', 'Twilio-Request-Duration': '0.127', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000'}
+2024-09-10 23:23:10,159 - INFO - WhatsApp message sent successfully: New ETH Deposit Detected!
+Block Number: 20721821
+Timestamp: 1725990755
+Sender: 0x936842bb7c37f47BD1477529f932305462B80139
+Amount: 0.000210719060872125 ETH
+Transaction Hash: bb395ffbdad4ff7b2f501e78965f619d81935130b054fd5b6bb4a5946957f430
+2024-09-10 23:23:10,159 - INFO - Telegram and WhatsApp messages sent: New ETH Deposit Detected!
+Block Number: 20721821
+Timestamp: 1725990755
+Sender: 0x936842bb7c37f47BD1477529f932305462B80139
+Amount: 0.000210719060872125 ETH
+Transaction Hash: bb395ffbdad4ff7b2f501e78965f619d81935130b054fd5b6bb4a5946957f430

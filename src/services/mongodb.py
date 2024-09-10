@@ -8,7 +8,7 @@ from src.logging_config import logger
 load_dotenv()
 
 # MongoDB URI from environment variables
-uri = os.getenv("ATLAS_URI")
+uri = os.getenv("MONGO_URI")
 
 # Initialize MongoDB client with server API version
 client = MongoClient(uri, server_api=ServerApi('1'))
