@@ -76,9 +76,9 @@ pip install -r requirements.txt
 Create a .env file in the root directory and add the following configuration:
 
 ~~~
-ATLAS_URI=<your_mongodb_uri>
+MONGO_URI=<your_mongodb_uri>
 TELEGRAM_BOT_TOKEN=<your_telegram_bot_token>
-CHAT_ID=<your_telegram_chat_id>
+TELEGRAM_CHAT_ID=<your_telegram_chat_id>
 TWILIO_ACCOUNT_SID=<your_twilio_account_sid>
 TWILIO_AUTH_TOKEN=<your_twilio_auth_token>
 ~~~
